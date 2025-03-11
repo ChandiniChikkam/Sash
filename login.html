@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-form">
+        <h2>Login</h2>
+        <form action="/submit-your-login-form" method="POST">
+            <div class="input">
+                <label for="email">Email or Phone</label>
+                <input type="text" id="email" name="email" placeholder="Enter your Email ID or phone number" required>
+            </div>
+            <div class="input">
+                <input type="checkbox" id="keep-signed-in">
+                <label for="keep-signed-in">Keep me signed in</label>
+            </div>
+            <button type="submit">Continue</button>
+            <p>By continuing you agree to our <a href="#">Terms of Use & Privacy Policy</a>.</p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Account</title>
+        <link rel="stylesheet" href="create.css">
+    </head>
+    <body>
+        <div id="create">
+            <h2>Create account</h2>
+        <form action="/submit-your-create-form" method="POST">
+            <div id="name">
+                <label for=" ">Your name</label>
+                <br>
+                <input type="text">
+            </div>
+            <br>
+            <div id="email">
+                <label for="">Email or Mobile number</label>
+                
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter your Email ID or phone number" required>  
+            </div>
+            <br>
+            <div id="password">
+                <label for="">Password</label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="At least 6 characters">
+                <p>Passwords must be at least 6 characters.</p>
+            </div>
+            <br>
+            <div id="re-enter">
+                <label for="">Re-enter password</label>
+                <br>
+                <input type="password">
+            </div>
+            <br>
+            <button type="submit">Continue</button>
+            <p>By continuing you agree to our <a href="#">Terms of Use & Privacy Policy</a>.</p>
+
+        </form>
+        </div>
+
+    </body>
+</html>
