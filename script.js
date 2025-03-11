@@ -1,7 +1,7 @@
 // Product data (You can later load this from a database)
 const products = [
-    { name: "Gaming Laptop", price: "$999", image: "laptop.jpg" },
-    { name: "Latest Smartphone", price: "$699", image: "phone.jpg" },
+    { name: "Gaming Laptop", price: "$999", image: "laptop.jpg"  "https://raw.githubusercontent.com/ChandiniChikkam/Sash/main/Laptop.jpg.jpg"},
+    { name: "Latest Smartphone", price: "$699", image: "phone.jpg" "https://raw.githubusercontent.com/ChandiniChikkam/Sash/main/Mobile.jpg.jpg" },
     { name: "Wireless Earbuds", price: "$199", image: "earbuds.jpg" },
     { name: "Smart Watch", price: "$299", image: "watch.jpg" }
 ];
