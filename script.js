@@ -6,6 +6,8 @@ const products = [
     { name: "Smart Watch", price: "$299", image: "watch.jpg" }
 ];
 
+
+
 // Function to display products dynamically
 function displayProducts() {
     const productList = document.getElementById("product-list");
